@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+.div-search {
+  margin-top: 5px;
+  width: 55%;
+  height: 30%;
+  /* background-color: #f1f1f1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inp-search{
+  width: 40%;  
+  height: 100%;
+  border-radius: 5px;
+}
+
